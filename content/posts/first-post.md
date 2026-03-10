@@ -1,5 +1,5 @@
 +++
-title = "TCP-IP: OSI-Modell"
+title = "Das ist ein Test"
 date = 2026-03-09T14:30:00+00:00
 
 [taxonomies]

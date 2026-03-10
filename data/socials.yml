@@ -1,5 +1,5 @@
 - platform: email
-  url: 'mailto:'
+  url: 'mailto:kontakt@besel.email'
   icon: mail
 
 - platform: facebook
@@ -18,30 +18,6 @@
   url: https://www.linkedin.com/in/
   icon: linkedin
 
-- platform: pinterest
-  url: https://www.pinterest.com/
-  icon: pinterest
-
-- platform: keyoxide
-  url: https://keyoxide.org/
-  icon: key
-
-- platform: feed
-  url: /atom.xml
-  icon: rss
-
-- platform: twitter
-  url: https://www.twitter.com/
-  icon: twitter
-
-- platform: stackoverflow
-  url: https://stackoverflow.com/
-  icon: stackoverflow
-
-- platform: youtube
-  url: https://youtube.com/
-  icon: youtube
-
-- platform: telegram
-  url: https://t.me/
-  icon: telegram
+#- platform: youtube
+#  url: https://youtube.com/
+#  icon: youtube

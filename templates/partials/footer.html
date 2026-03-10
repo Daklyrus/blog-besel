@@ -7,8 +7,6 @@
 </p>
 {%- endif -%}
 {%- set section = get_section(path="posts/_index.md") -%}
-{%- set earliest_post = section.pages | last -%}
-{%- set earliest_date = earliest_post.date | date(format="%Y") -%}
 {% set current_date = now() | date(format="%Y") %}
-<span class="copyright">&copy; {{ earliest_date }}{% if earliest_date != current_date %} - {{ current_date }}{% endif %} {{
+<span class="copyright">&copy; {{ current_date }}{% endif %} {{
   config.author }}</span>
