@@ -49,12 +49,12 @@ logo = "images/logo.png"
 monitor = false
 
 # Menu items
-menu = [{ url = "/about", name = "About" }, { url = "/tags", name = "Tags" }]
+menu = [{ url = "/about", name = "About" }, { url = "/tags", name = "Tags" }, { url = "/cv", name = "CV" }]
 
 language_code = "de-DE"
 
 # Enable OpenGraph metadata
-opengraph = true
+opengraph = false
 
 timezone = "Europe/Berlin"
 
@@ -67,7 +67,7 @@ timeformat = "%H:%M %d.%m.%Y"
 # cv_file = "/files/Curriculum_Vitae.pdf"
 
 # provide link to edit page on github
-edit_page = false
+edit_page = true
 
 # Use theme specific tags page based on templates/tags.html
 simplified_tags = false
@@ -77,21 +77,15 @@ social_links = [
   { platform = "email", user_id = "kontakt@besel.email" },
   { platform = "github", user_id = "daklyrus" },
   # { platform = "linkedin", user_id = "johndoe" },
-  # { platform = "feed", user_id = true },
-  # { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
-  # { platform = "facebook", user_id = "" },
   # { platform = "instagram", user_id = "" },
-  # { platform = "pinterest", user_id = "" },
   # { platform = "twitter", user_id = "" },
-  # { platform = "stackoverflow", user_id = "" },
   # { platform = "youtube", user_id = "" },
-  # { platform = "telegram", user_id = "" },
 ]
 
 # GitHub settings that are used to generate the edit page link
 #[extra.github]
-#username = "daklyrus"
-#repo = ""
+username = "Daklyrus"
+repo = "blog-besel"
 
 # Giscus settings
 # Please refer to https://giscus.app/ for more information
