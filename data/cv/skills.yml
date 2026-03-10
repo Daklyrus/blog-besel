@@ -1,5 +1,5 @@
-#- type: Programming Languages
-#  tools: [JavaScript/TypeScript, Python, C/C++, Bash]
+- type: Programming Languages
+  tools: [JavaScript/TypeScript, Python, Bash]
 
-#- type: Frameworks
-#  tools: [Angular, NestJS, LoopBack, Express.js, FastAPI, Django]
+- type: Frameworks
+  tools: [SvelteKit, Django]
