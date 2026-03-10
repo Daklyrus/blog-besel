@@ -28,7 +28,7 @@
 
 {% macro get_edit_url(page) %}
 {%- set url = ["https://github.com", config.extra.github.username,
-config.extra.github.repo, "edit/master/content" , page.relative_path] |
+config.extra.github.repo, "edit/main/content" , page.relative_path] |
 join(sep="/" ) %}
 <a href="{{ url | safe }}"
   title="Help improve page {{ page.permalink | safe }}">Improve this page</a>
