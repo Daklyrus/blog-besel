@@ -83,7 +83,7 @@ social_links = [
 ]
 
 # GitHub settings that are used to generate the edit page link
-#[extra.github]
+[extra.github]
 username = "Daklyrus"
 repo = "blog-besel"
 
